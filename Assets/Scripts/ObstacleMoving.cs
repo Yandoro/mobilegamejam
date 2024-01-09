@@ -17,7 +17,7 @@ public class ObstacleMoving : MonoBehaviour
             if (reloadTime <= 0)
             {
                 Time.timeScale = 1;
-                SceneManager.LoadScene(0);
+                SceneManager.LoadScene(1);
             }
         }
         Vector2 newPosition = transform.position;
