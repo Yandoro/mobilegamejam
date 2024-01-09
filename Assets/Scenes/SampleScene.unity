@@ -123,6 +123,23 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &290982340 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3331065151725630807, guid: 3a3aacac0adf6e344afa36ed1e45be71, type: 3}
+  m_PrefabInstance: {fileID: 3331065150684879643}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &290982345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290982340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 164cc738021c8cd43abd9a2d109f0cd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &418076601 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2788421117845348262, guid: 2bc594920c6d5bd40ac89cf29d22cc58, type: 3}
@@ -5180,6 +5197,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3331065151725630795, guid: 3a3aacac0adf6e344afa36ed1e45be71, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3331065151725630805, guid: 3a3aacac0adf6e344afa36ed1e45be71, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3331065151725630805, guid: 3a3aacac0adf6e344afa36ed1e45be71, type: 3}
+      propertyPath: m_GravityScale
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3331065151725630807, guid: 3a3aacac0adf6e344afa36ed1e45be71, type: 3}
