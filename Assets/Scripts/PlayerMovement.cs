@@ -20,15 +20,16 @@ public class PlayerMovement : MonoBehaviour
         {
             Touch touch = Input.GetTouch(0);
             Vector2 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
-            
-            
-            if (Input.GetTouch(0).phase == TouchPhase.Moved || Input.GetTouch(0).phase == TouchPhase.Stationary)
+            if (touchPosition.x <= rb.position.x + 1 && touchPosition.x >= rb.position.x - 1 &&
+                   touchPosition.y <= rb.position.y + 1 && touchPosition.y >= rb.position.y - 1)
             {
-                vec = Input.GetTouch(0).position;
-                
-                rb.position = Camera.main.ScreenToWorldPoint(vec);
-            }
+                if (Input.GetTouch(0).phase == TouchPhase.Moved || Input.GetTouch(0).phase == TouchPhase.Stationary)
+                {
+                    vec = Input.GetTouch(0).position;
 
+                    rb.position = Camera.main.ScreenToWorldPoint(vec);
+                }
+            }
         }
     }
 }
