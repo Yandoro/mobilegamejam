@@ -48,7 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   destroyAfterSeconds: 5
-  reloadTime: 4
+  reloadTime: 1000
 --- !u!61 &7021478662616119317
 BoxCollider2D:
   m_ObjectHideFlags: 0
